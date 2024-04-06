@@ -15,9 +15,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.compose_calculator.ui.theme.LightGray
-import com.example.compose_calculator.ui.theme.MediumGray
-import com.example.compose_calculator.ui.theme.Orange
+import com.example.compose_calculator.ui.theme.Violet
+import com.example.compose_calculator.ui.theme.Iris
+import com.example.compose_calculator.ui.theme.YellowGold
 import com.example.compose_calculator.ui.theme.compose_calculatorTheme
 
 @ExperimentalComposeUiApi
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
-                        .background(Color.DarkGray)
+                        .background(Color.Black)
                         .padding(16.dp)
                 ) {
                     Column(
@@ -60,7 +60,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CalculatorButton(
                                 symbol = "AC",
-                                color = LightGray,
+                                color = Iris,
                                 modifier = Modifier
                                     .aspectRatio(2f)
                                     .weight(2f)
@@ -69,7 +69,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "Del",
-                                color = LightGray,
+                                color = Iris,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -78,7 +78,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "/",
-                                color = Orange,
+                                color = YellowGold,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -93,7 +93,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CalculatorButton(
                                 symbol = "7",
-                                color = MediumGray,
+                                color = Violet,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -102,7 +102,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "8",
-                                color = MediumGray,
+                                color = Violet,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -111,7 +111,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "9",
-                                color = MediumGray,
+                                color = Violet,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -120,7 +120,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "x",
-                                color = Orange,
+                                color = YellowGold,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -135,7 +135,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CalculatorButton(
                                 symbol = "4",
-                                color = MediumGray,
+                                color = Violet,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -144,7 +144,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "5",
-                                color = MediumGray,
+                                color = Violet,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -153,7 +153,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "6",
-                                color = MediumGray,
+                                color = Violet,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -162,7 +162,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "-",
-                                color = Orange,
+                                color = YellowGold,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -177,7 +177,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CalculatorButton(
                                 symbol = "1",
-                                color = MediumGray,
+                                color = Violet,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -186,7 +186,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "2",
-                                color = MediumGray,
+                                color = Violet,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -195,7 +195,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "3",
-                                color = MediumGray,
+                                color = Violet,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -204,7 +204,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "+",
-                                color = Orange,
+                                color = YellowGold,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -219,7 +219,7 @@ class MainActivity : ComponentActivity() {
                         ) {
                             CalculatorButton(
                                 symbol = "0",
-                                color = MediumGray,
+                                color = Violet,
                                 modifier = Modifier
                                     .aspectRatio(2f)
                                     .weight(2f)
@@ -228,7 +228,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = ".",
-                                color = MediumGray,
+                                color = Violet,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
@@ -237,7 +237,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "=",
-                                color = Orange,
+                                color = YellowGold,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
